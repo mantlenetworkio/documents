@@ -1,0 +1,34 @@
+{
+    "name": "bitnetwork-documents",
+    "version": "0.0.0",
+    "description": "Bitnetwork Documentation",
+    "main": "index.js",
+    "scripts": {
+        "serve": "vuepress dev",
+        "build": "vuepress build",
+        "docs:build": "vuepress build docs"
+    },
+    "keywords": [
+        "bitnetwork",
+        "ethereum",
+        "blockchain",
+        "cryptocurrency",
+        "layer2"
+    ],
+    "author": "Tharsis",
+    "license": "ISC",
+    "dependencies": {
+        "entities": "^2.0.3",
+        "markdown-it": "^12.0.6",
+        "markdown-it-katex": "^2.0.3",
+        "vuepress-theme-cosmos": "^1.0.182"
+    },
+    "devDependencies": {
+        "node-sass": "^4.14.1",
+        "vuepress-plugin-element-tabs": "^0.2.8",
+        "watchpack": "^1.7.2"
+    },
+    "resolutions": {
+        "serialize-javascript": "^4.0.0"
+    }
+}
