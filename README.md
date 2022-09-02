@@ -1,18 +1,18 @@
 <!--
 layout: home
-title: Bitnetwork Documentation
+title: Mantle Documentation
 description: 
 sections:
   - title: Getting Started
     desc: Provide integration guidelines for specific topics.
     url: /guides/index.html
     icon: 
-  - title: How Bitnetwork works
-    desc: Learn more about Bitnetwork protocol.
+  - title: How Mantle works
+    desc: Learn more about Mantle protocol.
     url: ./developer/index.html
     icon: 
   - title: Developer Docs
-    desc: Start building on Bitnetwork.
+    desc: Start building on Mantle.
     url: ./protocol/index.html
     icon: 
     
@@ -21,25 +21,25 @@ footer:
 aside: false
 -->
 
-# Bitnetwork Documentation
+# Mantle Documentation
 
 ## Getting Started
 
-- **[Introduction](./intro/)**: High-level overview of Bitnetwork.
-- **[Public Bitnetwork chains](./public-chains/)**: Public Bitnetwork chains.
-- **[Runing a Node](./runing-a-node/)**: Running full node for Bitnetwork.
+- **[Introduction](./intro/)**: High-level overview of Mantle.
+- **[Public Mantle chains](./public-chains/)**: Public Mantle chains.
+- **[Runing a Node](./runing-a-node/)**: Running full node for Mantle.
 
-## How Bitnetwork works
+## How Mantle works
 
-[How Bitnetwork works](https://github.com/bitnetworkio/documents/blob/main/protocol/)
+[How Mantle works](https://github.com/bitnetworkio/documents/blob/main/protocol/)
 
 ## Developer Docs
 
-### Building on Bitnetwork
+### Building on Mantle
 
 - **[Using your favorite tools](https://github.com/bitnetworkio/documents/blob/main/developer/building/using-your-favorite-tools)**: Using your favorite tools.
-- **[Interacting with Bitnetwork contracts](https://github.com/bitnetworkio/documents/blob/main/developer/building/interacting-with-bitnetwork-contracts)**: Interacting with Bitnetwork contracts.
-- **[Differences between Ethereum and Bitnetwork](https://github.com/bitnetworkio/documents/blob/main/developer/building/differences-between-ethereum-and-bitnetwork)**: Differences between Ethereum and Bitnetwork.
+- **[Interacting with Mantle contracts](https://github.com/bitnetworkio/documents/blob/main/developer/building/interacting-with-bitnetwork-contracts)**: Interacting with Mantle contracts.
+- **[Differences between Ethereum and Mantle](https://github.com/bitnetworkio/documents/blob/main/developer/building/differences-between-ethereum-and-bitnetwork)**: Differences between Ethereum and Mantle.
 
 ### Bridging L1 and L2
 

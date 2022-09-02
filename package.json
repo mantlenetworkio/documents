@@ -1,7 +1,7 @@
 {
-    "name": "bitnetwork-documents",
+    "name": "mantle-documents",
     "version": "0.0.0",
-    "description": "Bitnetwork Documentation",
+    "description": "Mantle Documentation",
     "main": "index.js",
     "scripts": {
         "serve": "vuepress dev",
@@ -9,7 +9,7 @@
         "docs:build": "vuepress build docs"
     },
     "keywords": [
-        "bitnetwork",
+        "mantle",
         "ethereum",
         "blockchain",
         "cryptocurrency",

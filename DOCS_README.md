@@ -4,6 +4,11 @@ You can open a PR to update the documentation.
 
 ## Docs Build Workflow
 
+### Requires
+
+* [Node](https://nodejs.org/) [v12.\*.\*, v15.\*.\*]
+* [Yarn](https://yarnpkg.com/)
+
 ### How It Works
 
 There is a CircleCI job listening for changes in this project, on
