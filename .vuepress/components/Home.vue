@@ -9,8 +9,8 @@
     .intro
       .p {{$frontmatter.description}}
     .sections__wrapper
-      .h2 Explore Bitnetwork
-      .p__alt Get familiar with Bitnetwork and explore its main concepts.
+      .h2 Explore Mantle
+      .p__alt Get familiar with Mantle and explore its main concepts.
       .sections
         a.sections__item(tag="a" :href="section.url" v-for="section in $frontmatter.sections")
           component(:is="`tm-icon-${section.icon}`").sections__item__icon

@@ -1,6 +1,6 @@
 module.exports = {
     theme: 'cosmos',
-    title: 'Bitnetwork Documentation',
+    title: 'Mantle Documentation',
     locales: {
         '/': {
             lang: 'en-US'
@@ -40,14 +40,14 @@ module.exports = {
         // ['link', { rel: "apple-touch-icon-precomposed", href: "/apple-touch-icon-precomposed.png" }],
     ],
     themeConfig: {
-        repo: 'bitnetworkio/bitnetwork',
+        repo: 'bitnetworkio/mantle',
         docsRepo: 'bitnetworkio/documents',
         docsBranch: 'main',
         docsDir: 'docs',
         editLinks: true,
         custom: true,
         project: {
-            name: 'Bitnetwork'
+            name: 'Mantle'
         },
         logo: {
             src: '/logo.svg',
@@ -55,7 +55,7 @@ module.exports = {
         algolia: {
             id: 'BH4D9OD16A',
             key: 'a5d55fe5f540cc3bd28fa2c72f2b5bd8',
-            index: 'bitnetwork',
+            index: 'mantle',
         },
         topbar: {
             banner: false
@@ -71,7 +71,7 @@ module.exports = {
                     path: '/guides/intro'
                 },
                 {
-                    title: 'Public Bitnetwork chains',
+                    title: 'Public Mantle chains',
                     directory: false,
                     path: '/guides/public-chains'
                 },
@@ -82,14 +82,14 @@ module.exports = {
                 }
                 ]
             },{
-                title: 'How Bitnetwork works',
+                title: 'How Mantle works',
                 children: []
             },
             {
                 title: 'Developer Docs',
                 children:[
                     {
-                        title: 'Building on Bitnetwork',
+                        title: 'Building on Mantle',
                         directory: true,
                         path: '/developers/building'
 
@@ -113,16 +113,16 @@ module.exports = {
         footer: {
             logo: '/logo.svg',
             textLink: {
-                text: 'bitnetwork',
+                text: 'mantle',
                 url: ''
             },
             services: [
                 {
                     service: 'github',
-                    url: 'https://github.com/bitnetworkio/bitnetwork'
+                    url: 'https://github.com/bitnetworkio/mantle'
                 },
             ],
-            smallprint: 'This website is maintained by Bitnetwork'
+            smallprint: 'This website is maintained by Mantle'
         },
         versions: [{
             "label": "main",

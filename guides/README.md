@@ -4,7 +4,7 @@ parent:
   order: 1
 -->
 
-# Bitnetwork
+# Mantle
 
-Bitnetwork is a low-cost and lightning-fast Ethereum L2 blockchain.
+Mantle is a low-cost and lightning-fast Ethereum L2 blockchain.
 
