@@ -68,7 +68,7 @@ module.exports = {
                     {
                         title: 'Basic Concepts',
                         directory: false,
-                        path: '/introduction/basic-concepts'
+                        path: '/introduction/basic-concepts/'
                     },{
                         title: 'What is Mantle',
                         directory: false,
@@ -103,7 +103,7 @@ module.exports = {
                     {
                         title: "How Mantle Works",
                         directory: false,
-                        path: '/architecture/how-working'
+                        path: '/architecture/how-work'
                     }
                 ]
             },
@@ -124,7 +124,7 @@ module.exports = {
                         path: '/developers/building'
                     },{
                         title: 'SDK',
-                        directory: true,
+                        directory: false,
                         path: '/developers/sdk'
                     }
                 ]
