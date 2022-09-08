@@ -63,48 +63,88 @@ module.exports = {
         sidebar: {
             auto: false,
             nav: [{
-                title: 'Getting Started',
+                title: 'Introducing Mantle',
                 children: [
-                    {
-                    title: 'Introduction',
-                    directory: false,
-                    path: '/guides/intro'
-                },
                 {
-                    title: 'Public Mantle chains',
+                    title: 'Basic Concepts',
                     directory: false,
-                    path: '/guides/public-chains'
-                },
-                {
-                    title: 'Runing a Node',
+                    path: '/introduction/basic_concepts'   
+                },{
+                    title: 'What is Mantle',
                     directory: false,
-                    path: '/guides/runing-a-node'
+                    path: '/introduction/what_is_mantle'
+                },{
+                    title: 'Development Roadmap' ,
+                    directory: false,
+                    path: '/introduction/development_roadmap'
+                },{
+                    title: 'Get Involved',
+                    directory: false,
+                    path: '/introduction/get_involved'
                 }
                 ]
             },{
-                title: 'How Mantle works',
-                children: []
+                title: 'Getting Started',
+                children: [
+                    {
+                    title: 'How to get started',
+                    directory: false,
+                    path: '/guides/get_start'
+                },
+                {
+                    title: 'Bridging',
+                    directory: false,
+                    path: '/guides/bridging'
+                }
+                ]
+            },{
+                title: 'Network Architecture',
+                children: [
+                {
+                    title: "How Mantle Works",
+                    directory: false,
+                    path: '/architecture/how_working'
+                }
+                ]
             },
             {
-                title: 'Developer Docs',
+                title: 'Tools And SDK',
                 children:[
                     {
+                        title: 'Network Faucets',
+                        directory: false,
+                        path: '/developers/network_faucets'
+                    },{
+                        title: 'Block Explorers',
+                        directory: false,
+                        path: '/developers/block_explorers'
+                    },{
                         title: 'Building on Mantle',
                         directory: true,
                         path: '/developers/building'
-
-                    },
-                    {
-                        title: 'Bridging L1 and L2',
-                        directory: true,
-                        path: '/developers/bridging'
-
-                    },
-                    {
+                    },{
                         title: 'SDK',
                         directory: true,
                         path: '/developers/sdk'
                     },
+                ]
+            },
+            {
+                title: 'Validators',
+                children: [
+                    {
+                        title: 'Validator Overview',
+                        directory: false,
+                        path: '/protocol/validator'
+                    },{
+                        title: 'Core Concepts',
+                        directory: true,
+                        path: '/protocol/concepts'
+                    },{
+                        title: 'Running a Node',
+                        directory: true,
+                        path: '/protocol/run_node'
+                    }
                 ]
             }
             
