@@ -65,46 +65,46 @@ module.exports = {
             nav: [{
                 title: 'Introducing Mantle',
                 children: [
-                {
-                    title: 'Basic Concepts',
-                    directory: false,
-                    path: '/introduction/basic_concepts'   
-                },{
-                    title: 'What is Mantle',
-                    directory: false,
-                    path: '/introduction/what_is_mantle'
-                },{
-                    title: 'Development Roadmap' ,
-                    directory: false,
-                    path: '/introduction/development_roadmap'
-                },{
-                    title: 'Get Involved',
-                    directory: false,
-                    path: '/introduction/get_involved'
-                }
+                    {
+                        title: 'Basic Concepts',
+                        directory: false,
+                        path: '/introduction/basic-concepts'
+                    },{
+                        title: 'What is Mantle',
+                        directory: false,
+                        path: '/introduction/what-is-mantle'
+                    },{
+                        title: 'Development Roadmap' ,
+                        directory: false,
+                        path: '/introduction/development-roadmap'
+                    },{
+                        title: 'Get Involved',
+                        directory: false,
+                        path: '/introduction/get-involved'
+                   }
                 ]
             },{
                 title: 'Getting Started',
                 children: [
                     {
-                    title: 'How to get started',
-                    directory: false,
-                    path: '/guides/get_start'
-                },
-                {
-                    title: 'Bridging',
-                    directory: false,
-                    path: '/guides/bridging'
-                }
+                        title: 'How to get started',
+                        directory: false,
+                        path: '/guides/get-start'
+                    },
+                    {
+                        title: 'Bridging',
+                        directory: false,
+                        path: '/guides/bridging'
+                    }
                 ]
             },{
                 title: 'Network Architecture',
                 children: [
-                {
-                    title: "How Mantle Works",
-                    directory: false,
-                    path: '/architecture/how_working'
-                }
+                    {
+                        title: "How Mantle Works",
+                        directory: false,
+                        path: '/architecture/how-working'
+                    }
                 ]
             },
             {
@@ -113,11 +113,11 @@ module.exports = {
                     {
                         title: 'Network Faucets',
                         directory: false,
-                        path: '/developers/network_faucets'
+                        path: '/developers/network-faucets'
                     },{
                         title: 'Block Explorers',
                         directory: false,
-                        path: '/developers/block_explorers'
+                        path: '/developers/block-explorers'
                     },{
                         title: 'Building on Mantle',
                         directory: true,
@@ -126,7 +126,7 @@ module.exports = {
                         title: 'SDK',
                         directory: true,
                         path: '/developers/sdk'
-                    },
+                    }
                 ]
             },
             {
@@ -143,12 +143,12 @@ module.exports = {
                     },{
                         title: 'Running a Node',
                         directory: true,
-                        path: '/protocol/run_node'
+                        path: '/protocol/run-node'
                     }
                 ]
-            }
+            },
             
-            ]
+            ],
         },
         footer: {
             logo: '/logo.svg',
@@ -168,5 +168,5 @@ module.exports = {
             "label": "main",
             "key": "main"
         },],
-    }
+    },
 };
