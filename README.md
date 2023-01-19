@@ -32,15 +32,15 @@ aside: false
 
 ## Introducing Mantle
 
-- **[Basic Concepts](./introduction/basic_concepts.md)**: Basic Concepts of Mantle.
-- **[What is Mantle](./introduction/what_is_mantle.md)**: High-level overview of Mantle.
-- **[Development Roadmap](./introduction/development_roadmap.md)**: Development Roadmap of Mantel Network.
-- **[Get Involved](./introduction/get_involved.md)**: Get Involved
+- **[Basic Concepts](./introduction/basic-concepts/index.md)**: Basic Concepts of Mantle.
+- **[What is Mantle](./introduction/what-is-mantle/index.md)**: High-level overview of Mantle.
+- **[Development Roadmap](./introduction/development-roadmap/index.md)**: Development Roadmap of Mantel Network.
+- **[Get Involved](./introduction/get-involved/index.md)**: Get Involved
 
 ## Getting Started
 
-- **[How to get started](./guides/get_start.md)**: How to get started on Mantle.
-- **[Bridging](./guides/bridging.md)**: How to bridging between L1 and L2.
+- **[How to get started](./guides/get-start/index.md)**: How to get started on Mantle.
+- **[Bridging](./guides/bridging/index.md)**: How to bridging between L1 and L2.
 
 ## Network Architecture
 
